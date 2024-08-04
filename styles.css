@@ -1,0 +1,122 @@
+#title {
+    background-color: rgb(90, 80, 80);
+    background-image: url('images/burning_shoes.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.container-fluid {
+    padding: 18vw 5vw;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 8rem;
+    color: #ffffff;
+    text-align: center; 
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Helvetica Neue';
+    font-size: 1.5;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+h3 {
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    font-style: italic;
+    padding: 5% 5%;
+}
+
+p {
+    font-family: 'Courier New';
+    color: #ffffff;
+    padding: 0% 25%;
+    text-align: center;
+}
+
+/* GRAPHICS SECTION */
+#graphics {
+    padding: 1% 5%;
+    background-color: #141414; 
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
+div.scroll-container {
+    background-color: #141414;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+  
+div.scroll-container img {
+    padding: 1px;
+}
+
+div.scroll-container::-webkit-scrollbar {
+    height: 5px;
+    background-color: #f1f1f1;
+}
+
+div.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+div.scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* PHOTOS SECTION */
+#photo-section {
+    text-align: center;
+    background-color: #141414;
+    padding: 5% 0%;
+}
+
+.carousel-item {
+    padding: 1% 1%; 
+}
+
+/* Footer Section */
+#footer {
+    padding: 3% 3%;
+    text-align: center;
+    background-color: #141414;
+}
+
+.about-header {
+    color: #ffffff;
+    font-family: 'Helvetica Neue';
+    font-size: 1.5;
+    font-weight: bold;
+    text-align: center;
+    padding: 1% 5%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: white;
+}
+
+.resumeDownload {
+    font-family: 'Courier New';
+    background-color: white;
+    text-align: center;
+    margin: 2%;
+}
